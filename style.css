@@ -5,6 +5,15 @@ body {
 
 h1 {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Introduction {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -25,4 +34,30 @@ nav div {
 
 nav section {
     display: flex;
+}
+
+.Part-A {
+    background-color: blueviolet;
+    width: 800px;
+}
+
+.Part-B {
+    background-color: brown;
+    width: 800px;
+}
+
+.Part-C {
+    background-color: chartreuse;
+    grid-column: span;
+    height: 100px;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    gap: 10px;
+    padding: 10px;
+    background-color: aqua;
 }

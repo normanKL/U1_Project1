@@ -38,28 +38,47 @@ nav section {
 
 .Part-A {
     background-color: blueviolet;
+    height: 500px;
     width: 800px;
 }
 
 .Part-B {
     background-color: brown;
+    height: 500px;
     width: 800px;
 }
 
+.footer-1 {
+    background-color: azure;
+    height: 100px;
+    width: 200px;
+}
+
+.footer-2 {
+    background-color: rgb(126, 224, 224);
+    height: 100px;
+    width: 1350px;
+}
+
 .Part-C {
-    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(231, 243, 206);
     height: 100px;
     text-align: center;
-    grid-column: span 2;
+    gap: 40px;
+    padding: 40px;
+    gap:10px;
+    padding: 10px;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 500px;
-    gap: 10px;
-    padding: 10px;
-    background-color: aqua;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
     text-align: center;
 }

@@ -48,11 +48,12 @@ nav section {
 
 .Part-C {
     background-color: chartreuse;
-    grid-column: span;
     height: 100px;
+    text-align: center;
+    grid-column: span 2;
 }
 
-.grid-container {
+.flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,4 +61,5 @@ nav section {
     gap: 10px;
     padding: 10px;
     background-color: aqua;
+    text-align: center;
 }

@@ -103,22 +103,43 @@ nav section {
 }
 
 .footer-2 {
-    background-color: rgb(126, 224, 224);
-    height: 100px;
+    background-color: transparent;
+    height: 120px;
     width: 1350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
 }
 
 .Part-C {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: rgb(231, 243, 206);
-    height: 100px;
+    background-color: transparent;
+    height: 120px;
     text-align: center;
     gap: 40px;
     padding: 40px;
     gap:10px;
     padding: 10px;
     border-bottom: 2px solid grey;
+}
+
+.footer-1 {
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(245, 74, 12);
+    margin-top: 5p50
 }
 
 .flex-container {
@@ -131,4 +152,18 @@ nav section {
     background-color: rgb(245, 245, 245);
     text-align: center;
     border: 2px solid grey;
+}
+
+.footer-2 h3 {
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.opening_hours {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 0px;
+    font-family: sans-serif;
+    
 }

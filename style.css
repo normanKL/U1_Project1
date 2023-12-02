@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     background-color: wheat;
 }
 
@@ -7,6 +7,9 @@ h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: cursive;
+    font-size: xx-large;
+    color: darkgreen;
 }
 
 .Introduction {
@@ -48,9 +51,10 @@ nav section {
     width: 400px;
     color: azure;
 }
+
 .Part-A img {
-    height: 200px;
-    width: 300px;
+    height: 240px;
+    width: 340px;
 }
 
 .Part-A p {
@@ -61,7 +65,7 @@ nav section {
 }
 
 .Part-B {
-    background-color: brown;
+    background-color: rgb(62, 65, 199);
     height: 550px;
     width: 1200px;
     color: azure;
@@ -70,14 +74,14 @@ nav section {
 .Part-B img {
     height: 270px;
     width: 370px;
-    padding: 10px 10px;
+    padding-left: 10px;
 }
 
 .Part-B-Grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .services {
@@ -87,6 +91,7 @@ nav section {
     height: 0px;
     width: 370px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .services_des {
@@ -98,10 +103,12 @@ nav section {
 
 .footer-2 {
     background-color:rgba(248, 238, 218, 0.72);
-    height: 120px;
+    height: 150px;
     width: 1000px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
     margin-right: 80px;
+    padding-top: 10px;
     padding-right: 50px;
     padding-left: 50px;
     text-align: left;
@@ -113,13 +120,12 @@ nav section {
     display: grid;
     grid-template-columns: auto auto;
     background-color: transparent;
-    height: 120px;
+    height: 50px;
     text-align: center;
     gap: 40px;
     padding: 40px;
     gap:10px;
     padding: 10px;
-    border-bottom: 2px solid grey;
 }
 
 .footer-1 {
@@ -133,7 +139,10 @@ nav section {
     font-size: x-large;
     font-weight: bold;
     color: rgb(245, 74, 12);
-    margin-top: 5p50
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-top: 15px;
+    padding-left: 5px;
 }
 
 .footer-1 p {
@@ -154,8 +163,10 @@ nav section {
 
 .footer-2 h3 {
     margin: 10px;
-    margin-right: 50px;
+    margin-right: 10px;
     color: rgb(0, 117, 23);
+    font-family: cursive;
+    font-size: x-large;
 }
 
 .footer-2 p {

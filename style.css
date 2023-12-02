@@ -44,7 +44,7 @@ nav section {
 
 .Part-A {
     background-color: rgb(130, 12, 241);
-    height: 500px;
+    height: 550px;
     width: 400px;
     color: azure;
 }
@@ -57,12 +57,43 @@ nav section {
     text-align: left;
     padding: 20px 20px;
     font-family: sans-serif;
+    font-style: italic;
 }
 
 .Part-B {
     background-color: brown;
-    height: 500px;
+    height: 550px;
     width: 1200px;
+    color: azure;
+}
+
+.Part-B img {
+    height: 270px;
+    width: 370px;
+    padding: 10px 10px;
+}
+
+.Part-B-Grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.services {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    height: 0px;
+    width: 370px;
+    text-align: center;
+}
+
+.services_des {
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 10px 10px;
 }
 
 .footer-1 {

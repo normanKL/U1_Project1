@@ -1,6 +1,7 @@
 body {
     margin: 0px auto;
     background-color: wheat;
+    background-image: url(AdobeStock_606240509.jpeg);
 }
 
 h1 {
@@ -44,7 +45,7 @@ nav section {
 }
 
 .navigation {
-    border-top: 2px solid grey;
+    border-top: 5px solid whitesmoke;
 }
 
 .Part-A {
@@ -68,7 +69,7 @@ nav section {
 
 .Part-B {
     background-color: rgb(62, 65, 199);
-    height: 900px;
+    height: 550px;
     width: 1200px;
     color: azure;
 }
@@ -163,9 +164,9 @@ nav section {
     padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(244, 238, 228);
     text-align: center;
-    border: 2px solid grey;
+    border: 5px solid whitesmoke;
 }
 
 .footer-2 p {
@@ -182,17 +183,4 @@ nav section {
     font-family: sans-serif;
     margin-right: 40px;
     margin-left: 40px;
-}
-
-
-.feedback {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    font-size: large;
-    font-style: italic;
-    font-family: sans-serif;
-    text-align: left;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
 }

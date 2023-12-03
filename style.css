@@ -7,15 +7,15 @@ body {
 h1 {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-family: cursive;
-    font-size: xx-large;
+    font-size: 58px;
     color: darkgreen;
 }
 
 .Introduction {
     text-align: center;
-    font-size: large;
+    font-size: 25px;
     font-style: italic;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -50,7 +50,7 @@ nav section {
 
 .Part-A {
     background-color: rgb(130, 12, 241);
-    height: 550px;
+    height: 650px;
     width: 400px;
     color: azure;
 }
@@ -62,14 +62,15 @@ nav section {
 
 .Part-A p {
     text-align: left;
-    padding: 20px 20px;
-    font-family: sans-serif;
+    padding: 10px 10px;
+    font-family: serif;
     font-style: italic;
+    font-size: 18px;
 }
 
 .Part-B {
     background-color: rgb(62, 65, 199);
-    height: 550px;
+    height: 650px;
     width: 1200px;
     color: azure;
 }
@@ -88,9 +89,9 @@ nav section {
 }
 
 .services {
-    font-family: sans-serif;
+    font-family: serif;
     font-weight: bold;
-    font-size: large;
+    font-size: 20px;
     height: 0px;
     width: 370px;
     text-align: center;
@@ -99,14 +100,15 @@ nav section {
 
 .services_des {
     text-align: left;
-    font-family: sans-serif;
+    font-family: serif;
     font-style: italic;
+    font-size: 18px;
     padding: 10px 10px;
 }
 
 .footer-2 {
     background-color:rgba(248, 238, 218, 0.72);
-    height: 150px;
+    height: 180px;
     width: 800px;
     margin-top: 10px;
     margin-left: 10px;
@@ -125,15 +127,14 @@ nav section {
     background-color: transparent;
     height: 50px;
     text-align: center;
-    gap: 40px;
-    padding: 40px;
-    gap:10px;
-    padding: 10px;
+    gap: 30px;
+    padding: 5px;
+    gap:0px;
 }
 
 .footer-1 {
     height: 200px;
-    width: 500px;
+    width: 650px;
     text-align: center;
     background-color: transparent;
     display: grid;
@@ -151,7 +152,7 @@ nav section {
 }
 
 .footer-1 p {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .flex-container {
@@ -164,13 +165,9 @@ nav section {
     padding: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(244, 238, 228);
+    background-color: transparent;
     text-align: center;
     border: 5px solid whitesmoke;
-}
-
-.footer-2 p {
-    font-size: small;
 }
 
 .opening_hours {
@@ -181,6 +178,10 @@ nav section {
     gap: 70px;
     margin-top: 0px;
     font-family: sans-serif;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    font-family: serif;
 }

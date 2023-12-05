@@ -48,6 +48,16 @@ nav section {
     border-top: 5px solid whitesmoke;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    font-size: 21px;
+}
+
 .Part-A {
     background-color: rgb(9, 75, 215);
     height: 650px;

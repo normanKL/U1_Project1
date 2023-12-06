@@ -11,7 +11,15 @@ h1 {
     font-family: cursive;
     font-size: 58px;
     color: darkgreen;
+    animation-name: h1-animation;
+    animation-duration: 15s;
 }
+
+@keyframes h1-animation {
+    from {color: rgb(181, 181, 181);}
+    to {color: darkgreen;}
+}
+
 
 .Introduction {
     text-align: center;

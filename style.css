@@ -12,14 +12,13 @@ h1 {
     font-size: 58px;
     color: darkgreen;
     animation-name: h1-animation;
-    animation-duration: 15s;
+    animation-duration: 20s;
 }
 
 @keyframes h1-animation {
-    from {color: rgb(181, 181, 181);}
+    from {color: white;}
     to {color: darkgreen;}
 }
-
 
 .Introduction {
     text-align: center;
@@ -62,7 +61,7 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: orangered;
     font-size: 21px;
 }
 

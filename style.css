@@ -12,7 +12,7 @@ h1 {
     font-size: 58px;
     color: darkgreen;
     animation-name: h1-animation;
-    animation-duration: 20s;
+    animation-duration: 5s;
 }
 
 @keyframes h1-animation {
@@ -163,20 +163,20 @@ a:hover {
     font-style: italic;
     color: rgb(245, 74, 12);
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 20px;
     padding-top: 15px;
     padding-left: 5px;
 }
 
 .footer-1 p {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
     gap: none;
     height: auto;
     gap: 10px;
